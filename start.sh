@@ -71,3 +71,5 @@ ${IBC_PATH}/scripts/ibcstart.sh "$IB_GATEWAY_VERSION" -g \
      "--ibc-path=${IBC_PATH}" "--ibc-ini=${IBC_INI}" \
      "--user=${IB_ACCOUNT}" "--pw=${IB_PASSWORD}" "--mode=${TRADING_MODE}" \
      "--on2fatimeout=${TWOFA_TIMEOUT_ACTION}"
+
+echo "Setup Done"
